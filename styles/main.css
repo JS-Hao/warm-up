@@ -1,0 +1,40 @@
+@charset "utf-8";
+html, body {
+	height: 100%;
+}
+/*main*/
+.main {
+	width: 100%;
+	height: 100%;
+	background: url(../images/main/fbc1116bcc6c3fde.jpg);
+	overflow: hidden;
+}
+/*游戏机主体*/
+.bgFrame img {
+	width: 832px;
+	height: 377px;
+	display: block;
+	margin: 80px auto 0;
+}
+/*介绍*/
+.intro, .intro img {
+	height: 64px;
+}
+.intro img {
+	width: 812px;
+	display: block;
+	margin: 50px auto 0;
+}
+/*装饰一：怪物*/
+.monster {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	width: 200px;
+	height: 310px;
+}
+.monster img {
+	width: 200px;
+	height: 310px;
+	display: block;
+}
